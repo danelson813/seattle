@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # seattle/helpers/
 import asyncio
 import pandas as pd
@@ -27,3 +28,6 @@ if __name__ == "__main__":
     df1 = pd.read_sql_query("SELECT * FROM quotes;", conn)
     print(df1.info())
     conn.close()
+=======
+# seattle/helpers.
+>>>>>>> 4fca1829a087308788f209b67477623f8c4bae00

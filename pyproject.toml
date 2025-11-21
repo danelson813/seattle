@@ -3,6 +3,7 @@ name = "seattle"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.10"
+<<<<<<< HEAD
 dependencies = [
     "bs4>=0.0.2",
     "duckdb>=1.4.2",
@@ -11,4 +12,11 @@ dependencies = [
     "pandas-stubs==2.3.2.250926",
     "pandas>=2.3.3",
     "requests>=2.32.5",
+=======
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.14.5",
+>>>>>>> 4fca1829a087308788f209b67477623f8c4bae00
 ]
